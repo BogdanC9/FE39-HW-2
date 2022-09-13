@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "hometask",
+			"path": "."
+		},
+		{
+			"path": "..\\Fonts\\Open_Sans"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "hometask"
+	}
+}
