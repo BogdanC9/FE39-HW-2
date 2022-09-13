@@ -27,8 +27,8 @@
     height: 88px;
     width: 943px;
     margin: auto;
-    border-bottom: 1px solid #828282
-    ;
+    border-bottom: 1px solid #828282;
+    font-family: 'opensans';
     
 }
 
@@ -75,6 +75,7 @@ text-align: -webkit-center;
    width: 943px;
     align-items: center;
     justify-content: space-between;
+    font-family: 'opensans';
    
 }
 
@@ -119,6 +120,7 @@ text-align: -webkit-center;
     background-color: #F6F6F6;
     padding-top: 120px;
     padding-bottom: 107px;
+    font-family: 'opensans';
 }
  .about{
     size: 34px;
