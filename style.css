@@ -8,6 +8,7 @@
         font-family: 'gilroy-bold';
         src: url(./font/Gilroy-bold.ttf);
 }
+<<<<<<< Updated upstream
 .body{
     font-family: 'gilroy-bold';
     margin: 0;
@@ -16,6 +17,12 @@
 }
 
  .hero{
+=======
+ .contariner{
+    max-width: 940px;
+ }
+ .denis{
+>>>>>>> Stashed changes
     margin-bottom: 104px;
  }
 .container {
