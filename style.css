@@ -8,6 +8,7 @@
         font-family: 'gilroy-bold';
         src: url(./font/Gilroy-bold.ttf);
 }
+
 .body{
     font-family: 'gilroy-bold';
     margin: 0;
@@ -15,7 +16,12 @@
 
 }
 
- .hero{
+ 
+ .contariner{
+    max-width: 940px;
+ }
+ .denis{
+
     margin-bottom: 104px;
  }
 .container {
