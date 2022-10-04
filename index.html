@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header class="header">
+    <div class="container">
+        <header class="header">
             <nav class="header__nav">
                 <a class="nav__link" href='#hero'> Home</a>
                 <a class="nav__link" href='#aboutme'>About me</a>
@@ -16,7 +17,8 @@
                 <a class="nav__link" href='#image-portfolio'>Portfolio</a>
                 <a class="nav__link" href='#footer'>Contacts</a>
             </nav>
-    </header>
+        </header>
+    </div>  
     <main>
         <section class="hero" id="hero">
             <div class="container">
@@ -37,23 +39,25 @@
 
         </section>
         <section class="aboutme" id="aboutme">
-            <div >
+            <div class="container" >
                 <h1 class="about">About me</h1>
-                    <p class="text__1">Hi, I'm Denis – UX/UI designer from Minsk.<br> 
-                    I'm interested in design and everything connected with it.</p>
                     
-                    <p class="text__2">I'm studying at courses "Web and mobile design 
-                    <br>interfaces" in IT-Academy.</p>
+                    <p class="text__1">Hi, I'm Denis – UX/UI designer from Minsk.</p>
+                    <p class="text__2">I'm interested in design and everything connected with it.</p>
                     
-                   <p class="text__3">Ready to implement excellent projects
-                    <br>with wonderful people.</p>
+                    <p class="text__1">I'm studying at courses "Web and mobile design </p>
+                    <p class="text__2">interfaces" in IT-Academy.</p>
+                    
+                   <p class="text__1">Ready to implement excellent projects </p>
+                    <p class="text__2">with wonderful people.</p>
             </div>
         </section>
         <section class="program" id="program">
-            <div class="program__skills">
-                <p class="skills">Skills</p>
-                <p class="description__skills">I work in such programs as </p>
-            </div>
+           <div class="container" >
+                <div class="program__skills">
+                    <h2 class="skills">Skills</h2>
+                    <p class="description__skills">I work in such programs as </p>
+                </div>
                 <div class="adobe">
                     <div class="photoshop"> 
                         <p><img src="./foto/ps.png" alt="ps" width="89" height="88"> </p>
@@ -103,36 +107,42 @@
                                     </div>
                                 </div>
                 </div>
+            </div>
         </section>
         <section class="image-portfolio" id="image-portfolio">
-            <div class="portfolio">
-                <p class="text__portfolio">Portfolio</p>
-                <p><img src="./foto/Слой 8 (1).png" alt="women" height="510"  > </p>
-                <p class="home__page">Online fashion store - Homepage</p>
-                <p><img src="./foto/reebok_web.png" alt="rb" height="510"></p>
-                <p class="reebok">Reebok Store - Concept</p>
-                <p><img src="./foto/reebok_web (2).png" alt="br" height="510"> </p>
-                <p class="braun">Braun Landing Page - Concept</p>
+            <div class="container" >
+                <div class="portfolio">
+                    <h2 class="text__portfolio">Portfolio</h2>
+                    <img src="./foto/Слой 8 (1).png" alt="women" height="auto" width="100%">
+                    <p class="home__page">Online fashion store - Homepage</p>
+                    <img src="./foto/reebok_web.png " alt="reebok" height="auto" width="100%">
+                    <p class="reebok">Reebok Store - Concept</p>
+                    <img src="./foto/reebok_web (2).png" alt="braun" height="auto" width="100%">
+                    <p class="braun">Braun Landing Page - Concept</p>
+                    
+                </div>
             </div>
         </section>
 
         <footer class="footer" id="footer">
-            <div class="contacs">
-                <p class="text__cont"> Contacts</p>
-                <p class="description__cont">Want to know more or just chat? <br>You are welcome!</p>
-                <a class="description__btn" href="https://github.com/BogdanC9" target="_blank">
-                    Send message
-                </a>
-                <div class="link">
-                    <a class="link__item" href="https://www.instagram.com/bogdancebotari" target="_blank"><img src="./foto/surface1 6.svg" alt="instagram" ></a>
-                    <a class="link__item" href="https://vk.com/id57091144" target="_blank"><img src="./foto/vkontakte.png" alt="vk" ></a>
-                    <a class="link__item" href="https://www.facebook.com/bogdan.cebotari" target="_blank"><img src="./foto/facebook.png" alt="fb" ></a>
-                    <a class="link__item" href="https://github.com/BogdanC9" target="_blank"><img src="./foto/github.png"  alt="github"></a>
-                </div>
-                <p class="description__contacts"> Like me on <br> Instagram, Vkontakte, Facebook, GitHub</p>
+            <div class="container" >
+                <div class="contacs">
+                    <h2 class="text__cont"> Contacts</h2>
+                    <p class="description__cont">Want to know more or just chat? <br>You are welcome!</p>
+                    <a class="description__btn" href="https://github.com/BogdanC9" target="_blank">
+                        Send message
+                    </a>
+                    <div class="link">
+                        <a class="link__item" href="https://www.instagram.com/bogdancebotari" target="_blank"><img src="./foto/surface1 6.svg" alt="instagram" ></a>
+                        <a class="link__item" href="https://vk.com/id57091144" target="_blank"><img src="./foto/vkontakte.png" alt="vk" ></a>
+                        <a class="link__item" href="https://www.facebook.com/bogdan.cebotari" target="_blank"><img src="./foto/facebook.png" alt="fb" ></a>
+                        <a class="link__item" href="https://github.com/BogdanC9" target="_blank"><img src="./foto/github.png"  alt="github"></a>
+                    </div>
+                    <p class="description__contacts"> Like me on <br> Instagram, Vkontakte, Facebook, GitHub</p>
 
+                </div>
             </div>
-           
+            
 
         </footer>
          
