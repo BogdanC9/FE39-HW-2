@@ -9,21 +9,16 @@
         src: url(./font/Gilroy-bold.ttf);
 }
 
-.body{
+
+
+body{
+    
     font-family: 'gilroy-bold';
     margin: 0;
     padding: 0;
 
 }
-
  
- .contariner{
-    max-width: 940px;
- }
- .denis{
-
-    margin-bottom: 104px;
- }
 .container {
     max-width: 944px;
     margin: 0 auto;
@@ -34,9 +29,8 @@
 .header{
     background-color: #fff;
     height: 88px;
-    width: 943px;
     margin: auto;
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #828282 ;
     
     
 }
@@ -47,9 +41,6 @@
     align-items: center;
     justify-content: space-between;
     font-family: 'gilroy-bold';
-    
-    
-  
     
 }
 
@@ -92,12 +83,14 @@
     font-size: 18px;
     color: black;
     font-family: 'gilroy-medium';
+    margin-top: 73px;
 
 }
 
 .right__text{
     transform: rotate(270deg);
     margin-right: -20px;
+    margin-top: 27px;
 
 }
 
@@ -114,11 +107,11 @@
 
 .hero__foto{
     height: 387px;
-
     background-image: url(./foto/BSPP2266.jpg);
     display: flex;
     background-repeat: no-repeat;
-    position: relative;
+   
+    
     
     
 }
@@ -142,31 +135,28 @@
     font-size: 18px;
     color: #000;
     font-family: 'gilroy-medium';
+    margin: 0;
  }
  .text__2 {
     font-size: 18px;
     color: #000;
     font-family: 'gilroy-medium';
- }
- .text__3 {
-    font-size: 18px;
-    color: #000;
-    font-family: 'gilroy-medium';
-    
+    margin-bottom: 35px;
+    margin-top: 0;
  }
 
- .program__skills{
+.program__skills{
     text-align: center;
 
- }
+}
 
- .skills{
+.skills{
     font-size: 34px;
     font-family: 'gilroy-bold' ;
     color: #000;
  }
 
- .description__skills{
+.description__skills{
     font-size: 18px;
     font-family: 'gilroy-medium';
     color: #000;
@@ -174,19 +164,22 @@
 .program{
     padding-top: 91px;
     padding-bottom: 107px;
-    max-width: 944px;
     margin: 0 auto;
 }
 
 .adobe{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+   
    
 }
+
 .photoshop{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .adobephotoshop{
@@ -196,22 +189,24 @@
     text-align: center;
     font-family:'gilroy-bold' ;
 }
+
 .rating-ps {
-        display: inline-block;
+     display: inline-block;
 }
- .rating-ps span {
-        padding: 0;
-        font-size: 26px;
-        line-height: 1;
-        color: #E5E5E5;
+
+.rating-ps span {
+    padding: 0;
+    font-size: 26px;
+    line-height: 1;
+    color: #E5E5E5;
         
 
- }
+}
 .rating-ps > span:before {
-        content: '★';
+    content: '★';
  }
- .rating-ps > span.active {
-        color:#000;
+.rating-ps > span.active {
+    color:#000;
 }
 
 .illustrator{
@@ -321,10 +316,12 @@
     background-color: #F6F6F6;
 }
 .portfolio{
-    max-width: 936px;
+
     margin: 0 auto;
     
 }
+
+
 .text__portfolio{
     text-align: center;
     font-family:'gilroy-bold' ;
@@ -415,3 +412,67 @@
     text-align: center;
     margin-top: 45px;
 }
+
+@media screen and (max-width: 1050px) {
+
+    
+    .hero__foto,.photo,.photo_reebok,.photo_braun{
+        background-size: 100%;
+        
+    }
+    
+        
+}
+
+@media screen and (max-width: 800px){
+    .adobe{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .photoshop,.illustrator,.after,.figma{
+        min-width: 50%; 
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) 
+
+  {
+            
+
+    .hero__foto{
+        background-image: url(./foto/BSPP2266.png);
+       
+    }
+    .hero_description{
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: flex-start;     
+        margin-bottom: 23px;
+        
+    }
+    .right__text{
+        display: none;
+    }
+    .centre__text,.left__text{
+        margin: 0 
+        
+    }
+
+    .left__text{
+        margin-bottom: 23px;
+    }
+    .adobe{
+        
+        flex-direction: column;
+        
+    }
+    
+}
+   
+     
