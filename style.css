@@ -472,6 +472,10 @@ body{
         flex-direction: column;
         
     }
+
+    .description__btn {
+        width: 275px;
+    }
     
 }
    
