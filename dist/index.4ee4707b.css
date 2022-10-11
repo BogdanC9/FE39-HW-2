@@ -1,0 +1,420 @@
+@font-face {
+  font-family: gilroy-medium;
+  src: url("Gilroy-medium.f59f7cae.ttf");
+}
+
+@font-face {
+  font-family: gilroy-bold;
+  src: url("Gilroy-bold.629a2bc0.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: gilroy-bold;
+}
+
+.container {
+  max-width: 944px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.header {
+  height: 88px;
+  background-color: #fff;
+  border-bottom: 1px solid #828282;
+  margin: auto;
+}
+
+.header__nav {
+  height: 88px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: gilroy-bold;
+  display: flex;
+}
+
+.nav__link {
+  color: #828282;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #000;
+}
+
+.hero_description {
+  height: 188px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: gilroy-bold;
+  display: flex;
+}
+
+.left__text {
+  color: #000;
+  font-size: 47px;
+  font-weight: 700;
+}
+
+.centre__text {
+  color: #000;
+  margin-top: 73px;
+  font-family: gilroy-medium;
+  font-size: 18px;
+}
+
+.right__text {
+  margin-top: 27px;
+  margin-right: -20px;
+  transform: rotate(270deg);
+}
+
+.lang:hover {
+  color: #000;
+  font-weight: 700;
+}
+
+.lang {
+  color: #828282;
+  text-decoration: none;
+}
+
+.hero__foto {
+  height: 387px;
+  background-image: url("BSPP2266.dc5b279e.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.aboutme {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding-top: 120px;
+  padding-bottom: 107px;
+}
+
+.about {
+  color: #000;
+  font-family: gilroy-bold;
+  font-size: 34px;
+}
+
+.text__1 {
+  color: #000;
+  margin: 0;
+  font-family: gilroy-medium;
+  font-size: 18px;
+}
+
+.text__2 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 35px;
+  font-family: gilroy-medium;
+  font-size: 18px;
+}
+
+.program__skills {
+  text-align: center;
+}
+
+.skills {
+  color: #000;
+  font-family: gilroy-bold;
+  font-size: 34px;
+}
+
+.description__skills {
+  color: #000;
+  font-family: gilroy-medium;
+  font-size: 18px;
+}
+
+.program {
+  margin: 0 auto;
+  padding-top: 91px;
+  padding-bottom: 107px;
+}
+
+.adobe {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.photoshop {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.adobephotoshop {
+  color: #828282;
+  text-align: center;
+  font-family: gilroy-bold;
+  font-size: 14px;
+  display: block;
+}
+
+.rating-ps {
+  display: inline-block;
+}
+
+.rating-ps span {
+  color: #e5e5e5;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.rating-ps > span:before {
+  content: "★";
+}
+
+.rating-ps > span.active {
+  color: #000;
+}
+
+.illustrator {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.adobeillustrator {
+  color: #828282;
+  text-align: center;
+  font-family: gilroy-bold;
+  font-size: 14px;
+  display: block;
+}
+
+.rating-ai {
+  display: inline-block;
+}
+
+.rating-ai span {
+  color: #e5e5e5;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.rating-ai > span:before {
+  content: "★";
+}
+
+.rating-ai > span.active {
+  color: #000;
+}
+
+.after {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.adobeafter {
+  color: #828282;
+  text-align: center;
+  font-family: gilroy-bold;
+  font-size: 14px;
+  display: block;
+}
+
+.rating-ae {
+  display: inline-block;
+}
+
+.rating-ae span {
+  color: #e5e5e5;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.rating-ae > span:before {
+  content: "★";
+}
+
+.rating-ae > span.active {
+  color: #000;
+}
+
+.figma {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.adobefigma {
+  color: #828282;
+  text-align: center;
+  font-family: gilroy-bold;
+  font-size: 14px;
+  display: block;
+}
+
+.rating-fg span {
+  color: #e5e5e5;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.rating-fg > span:before {
+  content: "★";
+}
+
+.rating-fg > span.active {
+  color: #000;
+}
+
+.image-portfolio {
+  background-color: #f6f6f6;
+}
+
+.portfolio {
+  margin: 0 auto;
+}
+
+.text__portfolio {
+  text-align: center;
+  color: #000;
+  padding-top: 112px;
+  padding-bottom: 47px;
+  font-family: gilroy-bold;
+  font-size: 34px;
+}
+
+.home__page, .reebok {
+  color: #000;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 99px;
+  font-family: gilroy-medium;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.braun {
+  color: #000;
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 96px;
+  font-family: gilroy-medium;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.contacs__header {
+  text-align: center;
+  color: #000;
+  padding-top: 114px;
+  font-family: gilroy-bold;
+  font-size: 34px;
+}
+
+.contacs__text {
+  text-align: center;
+  color: #000;
+  font-family: gilroy-medium;
+  font-size: 18px;
+}
+
+.contacs__btn {
+  width: 180px;
+  height: 42px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 42px auto 80px;
+  font-family: gilroy-bold;
+  text-decoration: none;
+  display: flex;
+}
+
+.contacs__link_item img {
+  width: 40px;
+  height: 40px;
+}
+
+.contacs__link {
+  max-width: 350px;
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+}
+
+.description__contacts {
+  color: #828282;
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 123px;
+  font-family: gilroy-medium;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1050px) {
+  .hero__foto, .photo, .photo_reebok, .photo_braun {
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .adobe {
+    max-width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .photoshop, .illustrator, .after, .figma {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero__foto {
+    background-image: url("BSPP2266.20b74dfb.png");
+  }
+
+  .hero_description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 23px;
+    display: flex;
+  }
+
+  .right__text {
+    display: none;
+  }
+
+  .centre__text, .left__text {
+    margin: 0;
+  }
+
+  .left__text {
+    margin-bottom: 23px;
+  }
+
+  .adobe {
+    flex-direction: column;
+  }
+
+  .description__btn {
+    width: 275px;
+  }
+}
+
+/*# sourceMappingURL=index.4ee4707b.css.map */

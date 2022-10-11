@@ -1,0 +1,455 @@
+@font-face {
+   
+    font-family: 'gilroy-medium';
+    src: url(../font/Gilroy-medium.ttf);
+}
+@font-face {
+    
+        font-family: 'gilroy-bold';
+        src: url(../font/Gilroy-bold.ttf);
+}
+
+$black:#000;
+$white:#fff;
+$gray:#828282;
+
+
+body{
+    
+    font-family: 'gilroy-bold';
+    margin: 0;
+    padding: 0;
+
+}
+ 
+.container {
+    max-width: 944px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+
+.header{
+
+    background-color: $white;
+    height: 88px;
+    margin: auto;
+    border-bottom: 1px solid $gray ;
+    
+    &__nav{
+        display: flex;
+        height: 88px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__link{
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: $gray;
+        text-decoration: none;
+        text-align: center;
+        
+      
+    }
+
+}
+
+.hero__wrapper{
+
+    .hero_description{
+    display: flex;
+   height: 188px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'gilroy-bold';
+    }
+
+    .left__text{
+    font-size: 47px;
+    font-weight: 700;
+    color: $black; 
+    }
+
+    .centre__text{
+        font-size: 18px;
+        color: $black;
+        font-family: 'gilroy-medium';
+        margin-top: 73px;
+
+    }
+
+    .right__text{
+        transform: rotate(270deg);
+        margin-right: -20px;
+        margin-top: 27px;
+
+    }
+
+
+    .lang:hover{
+        color: $black;
+        font-weight: 700;
+        
+    }
+    .lang{
+        color: $gray;
+        text-decoration: none;
+    }
+
+    .hero__foto{
+        height: 387px;
+        background-image: url(../foto/BSPP2266.jpg);
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
+
+.aboutme{
+    
+    text-align: center;
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 107px;
+
+    .about{
+        font-size: 34px;
+        color: $black;
+        font-family: 'gilroy-bold';
+        
+     }
+     .text__1 {
+        font-size: 18px;
+        color: $black;
+        font-family: 'gilroy-medium';
+        margin: 0;
+     }
+     .text__2 {
+        font-size: 18px;
+        color: $black;
+        font-family: 'gilroy-medium';
+        margin-bottom: 35px;
+        margin-top: 0;
+     }
+    
+}
+
+
+.program__skills{
+    text-align: center;
+
+    .skills{
+        font-size: 34px;
+        font-family: 'gilroy-bold' ;
+        color: $black;
+     }
+    
+    .description__skills{
+        font-size: 18px;
+        font-family: 'gilroy-medium';
+        color:$black;
+        margin-bottom: 83px;
+    }
+
+}
+
+
+.program{
+    padding-top: 91px;
+    padding-bottom: 107px;
+    margin: 0 auto;
+}
+
+.adobe{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+    .photoshop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    &__photoshop{
+        font-size: 14px;
+        color: $gray;
+        display: block;
+        text-align: center;
+        font-family:'gilroy-bold' ;
+    }
+    
+    .rating-ps {
+         display: inline-block;
+    }
+    
+    .rating-ps span {
+        padding: 0;
+        font-size: 26px;
+        line-height: 1;
+        color: #E5E5E5;
+            
+    
+    }
+    .rating-ps > span:before {
+        content: '★';
+     }
+    .rating-ps > span.active {
+        color:$black;
+    }
+    
+    .illustrator{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    &__illustrator{
+        font-size: 14px;
+        color: $gray;
+        display: block;
+        text-align: center;
+        font-family:'gilroy-bold' ;
+    
+    }
+    
+    .rating-ai {
+        display: inline-block;
+    }
+    .rating-ai span {
+        padding: 0;
+        font-size: 26px;
+        line-height: 1;
+        color: #E5E5E5;
+        
+    
+    }
+    .rating-ai > span:before {
+        content: '★';
+    }
+    .rating-ai > span.active {
+        color:$black;
+    }
+    
+    .after{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    &__after{
+        font-size: 14px;
+        color: $gray;
+        display: block;
+        text-align: center;
+        font-family:'gilroy-bold' ;
+    
+    }
+    
+    .rating-ae {
+        display: inline-block;
+    }
+    .rating-ae span {
+        padding: 0;
+        font-size: 26px;
+        line-height: 1;
+        color: #E5E5E5;
+        
+    
+    }
+    .rating-ae > span:before {
+        content: '★';
+    }
+    .rating-ae > span.active {
+        color:$black;
+    }
+    
+    
+    .figma{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    &__figma{
+        font-size: 14px;
+        color: $gray ;
+        display: block;
+        text-align: center;
+        font-family:'gilroy-bold' ;
+    
+    }
+    
+    
+    .rating-fg span {
+        padding: 0;
+        font-size: 26px;
+        line-height: 1;
+        color: #E5E5E5;
+        
+    
+    }
+    .rating-fg > span:before {
+        content: '★';
+    }
+    .rating-fg > span.active {
+        color:$black;
+    }
+   
+}
+
+.image-portfolio{
+ 
+    background-color: #F6F6F6;
+}
+.portfolio{
+
+    margin: 0 auto;
+    &__text{
+        text-align: center;
+        font-family:'gilroy-bold' ;
+        font-size: 34px;
+        color: $black;
+        padding-bottom: 47px;
+        padding-top:112px ;
+        
+    }
+    &__home,&__reebok,&__braun{
+        font-size:18px;
+        font-family: 'gilroy-medium';
+        color: $black;
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 44px;
+        padding-bottom: 99px;
+        
+    }
+}
+
+
+.contacs{
+
+    &__header{
+        font-size: 34px;
+        font-family:'gilroy-bold';
+        text-align: center;
+        color: $black;
+        padding-top: 114px;
+        
+    }
+    &__text{
+        font-size: 18px;
+        font-family:'gilroy-medium';
+        text-align: center;
+        color: $black;
+    }
+    &__btn{
+        margin-top: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 42px;
+        background-color: $black;
+        border-radius: 100px;
+        text-decoration: none;
+        margin: 42px  auto 80px;
+        color: $white;
+        font-family:'gilroy-bold' ;
+    
+    }
+
+    &__link_item img{
+        width: 40px;
+        height: 40px;
+
+    }
+    &__link{
+        max-width: 350px;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+    }
+    &__description{
+        font-size: 14px;
+        color: $gray;
+        font-family:'gilroy-medium' ;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 123px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    
+    .hero__foto,.photo,.photo_reebok,.photo_braun{
+        background-size: 100%;
+        
+    }
+    
+        
+}
+
+@media screen and (max-width: 800px){
+    .adobe{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .photoshop,.illustrator,.after,.figma{
+        min-width: 50%; 
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) 
+
+  {
+            
+
+    .hero__foto{
+        background-image: url(../foto/BSPP2266.png);
+       
+    }
+    .hero_description{
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: flex-start;     
+        margin-bottom: 23px;
+        
+    }
+    .right__text{
+        display: none;
+    }
+    .centre__text,.left__text{
+        margin: 0 
+        
+    }
+
+    .left__text{
+        margin-bottom: 23px;
+    }
+    .adobe{
+        
+        flex-direction: column;
+        
+    }
+
+    .description__btn {
+        width: 275px;
+    }
+    
+}
+   
+     
