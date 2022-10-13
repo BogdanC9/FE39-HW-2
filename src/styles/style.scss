@@ -48,12 +48,17 @@ body{
         line-height: 22px;
         color: $gray;
         text-decoration: none;
-        text-align: center;
-        
+        text-align: center;     
       
     }
 
 }
+
+.header__link:hover{
+    color: #000;
+    
+}
+
 
 .hero__wrapper{
 
@@ -102,8 +107,12 @@ body{
         background-image: url(../foto/BSPP2266.jpg);
         display: flex;
         background-repeat: no-repeat;
+        
+
     }
+    
 }
+
 
 
 .aboutme{
@@ -311,6 +320,7 @@ body{
 .portfolio{
 
     margin: 0 auto;
+
     &__text{
         text-align: center;
         font-family:'gilroy-bold' ;
@@ -362,8 +372,16 @@ body{
         margin: 42px  auto 80px;
         color: $white;
         font-family:'gilroy-bold' ;
+        
+        
     
     }
+
+    .contacs__btn:hover {
+    box-shadow :6px 0px 16px 3px #828282;
+   
+    }
+    
 
     &__link_item img{
         width: 40px;
@@ -386,10 +404,12 @@ body{
     }
 }
 
+
+
 @media screen and (max-width: 1050px) {
 
     
-    .hero__foto,.photo,.photo_reebok,.photo_braun{
+    .hero__foto{
         background-size: 100%;
         
     }
@@ -397,7 +417,7 @@ body{
         
 }
 
-@media screen and (max-width: 800px){
+    @media screen and (max-width: 800px){
     .adobe{
         display: flex;
         flex-wrap: wrap;
@@ -405,51 +425,111 @@ body{
         margin: 0 auto;
     }
     .photoshop,.illustrator,.after,.figma{
-        min-width: 50%; 
+        min-width: 40%; 
     }
-}
+    .aboutme{
+        padding-top: 90px;
+        padding-bottom: 60px;}
+
+        .program{
+            padding-top: 60px;
+            padding-bottom: 80px;
+        }
+        .portfolio{
+            .portfolio__text {
+            padding-top: 70px;
+            padding-bottom: 30px;}
+            &__home,&__reebok,&__braun{
+            padding-top: 30px;
+            padding-bottom: 50px;}
+        }
+        .contacs__header{
+            padding-top: 60px;
+        }
+
+        .contacs__description {
+        margin-bottom: 80px;}
+
+        .program__skills .description__skills {
+            margin-bottom: 50px;
+        }
+        .adobe .photoshop {
+           
+            margin-bottom: 40px;
+        }
+    }
 
 
 
 
-@media screen and (max-width: 600px) 
-
-  {
-            
-
-    .hero__foto{
-        background-image: url(../foto/BSPP2266.png);
+    @media screen and (max-width: 600px) {
        
-    }
-    .hero_description{
-        display: flex;
-        flex-direction: column;   
-        justify-content: center;
-        align-items: flex-start;     
-        margin-bottom: 23px;
+                
+        .hero__wrapper{
+        .hero__foto{
+            background-image: url(../foto/BSPP2266.png);
         
-    }
-    .right__text{
-        display: none;
-    }
-    .centre__text,.left__text{
-        margin: 0 
-        
+        }
+        .hero_description{
+            display: flex;
+            flex-direction: column;   
+            justify-content: center;
+            align-items: flex-start;     
+            margin-bottom: 23px;
+            
+        }
+        .right__text{
+            display: none;
+        }
+        .centre__text,.left__text{
+            margin: 0 
+            
+        }
+
+        .left__text{
+            margin-bottom: 23px;
+        }
     }
 
-    .left__text{
-        margin-bottom: 23px;
-    }
-    .adobe{
-        
-        flex-direction: column;
-        
-    }
+        .aboutme{
+        padding-top: 60px;
+        padding-bottom: 60px;}
 
-    .description__btn {
-        width: 275px;
-    }
+        .program{
+            padding-top: 60px;
+            padding-bottom: 80px;
+        }
+        .portfolio{
+            .portfolio__text {
+            padding-top: 70px;
+            padding-bottom: 30px;}
+            &__home,&__reebok,&__braun{
+            padding-top: 30px;
+            padding-bottom: 50px;}
+        }
+        .contacs__header{
+            padding-top: 60px;
+        }
+
+        .contacs__description {
+        margin-bottom: 60px;}
+
+        .program__skills .description__skills {
+            margin-bottom: 50px;
+        }
+
+        .adobe{
+            flex-direction: column;
+        }
+
+        .contacs__btn {
+            width: 275px;
+        }
+
+        .adobe .illustrator,.adobe .after{
+            margin-bottom: 40px;
+        } 
     
-}
+    }
    
      

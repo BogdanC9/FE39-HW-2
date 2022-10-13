@@ -43,6 +43,10 @@ body {
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #000;
+}
+
 .hero__wrapper .hero_description {
   height: 188px;
   justify-content: space-between;
@@ -329,6 +333,10 @@ body {
   display: flex;
 }
 
+.contacs .contacs__btn:hover {
+  box-shadow: 6px 0 16px 3px #828282;
+}
+
 .contacs__link_item img {
   width: 40px;
   height: 40px;
@@ -351,7 +359,7 @@ body {
 }
 
 @media screen and (max-width: 1050px) {
-  .hero__foto, .photo, .photo_reebok, .photo_braun {
+  .hero__foto {
     background-size: 100%;
   }
 }
@@ -365,16 +373,52 @@ body {
   }
 
   .photoshop, .illustrator, .after, .figma {
-    min-width: 50%;
+    min-width: 40%;
+  }
+
+  .aboutme {
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+
+  .program {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .portfolio .portfolio__text {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  .portfolio__home, .portfolio__reebok, .portfolio__braun {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .contacs__header {
+    padding-top: 60px;
+  }
+
+  .contacs__description {
+    margin-bottom: 80px;
+  }
+
+  .program__skills .description__skills {
+    margin-bottom: 50px;
+  }
+
+  .adobe .photoshop {
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .hero__foto {
+  .hero__wrapper .hero__foto {
     background-image: url("BSPP2266.20b74dfb.png");
   }
 
-  .hero_description {
+  .hero__wrapper .hero_description {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -382,24 +426,60 @@ body {
     display: flex;
   }
 
-  .right__text {
+  .hero__wrapper .right__text {
     display: none;
   }
 
-  .centre__text, .left__text {
+  .hero__wrapper .centre__text, .hero__wrapper .left__text {
     margin: 0;
   }
 
-  .left__text {
+  .hero__wrapper .left__text {
     margin-bottom: 23px;
+  }
+
+  .aboutme {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .program {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .portfolio .portfolio__text {
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  .portfolio__home, .portfolio__reebok, .portfolio__braun {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .contacs__header {
+    padding-top: 60px;
+  }
+
+  .contacs__description {
+    margin-bottom: 60px;
+  }
+
+  .program__skills .description__skills {
+    margin-bottom: 50px;
   }
 
   .adobe {
     flex-direction: column;
   }
 
-  .description__btn {
+  .contacs__btn {
     width: 275px;
+  }
+
+  .adobe .illustrator, .adobe .after {
+    margin-bottom: 40px;
   }
 }
 
